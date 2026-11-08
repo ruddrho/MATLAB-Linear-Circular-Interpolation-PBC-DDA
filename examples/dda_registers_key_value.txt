@@ -1,0 +1,7 @@
+# DDA binary register values (from classroom example)
+J_vx=101
+J_rx=000
+J_vy=011
+J_ry=000
+NBits=3
+Cycles=8
