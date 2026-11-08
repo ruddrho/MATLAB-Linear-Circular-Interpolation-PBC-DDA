@@ -13,6 +13,6 @@ function test_classic_header_source()
     assert(contains(pro,"'Text','Open Classic View'"));
     assert(contains(classic,'app.ProViewButton.Layout.Column = 3;'));
     assert(contains(classic,'app.ProViewButton.ButtonPushedFcn = @(~,~)app.openProfessional();'));
-    assert(~contains(classic,'uibutton(app.ResultsPanel')));
+    assert(~contains(classic,'uibutton(app.ResultsPanel'));
     fprintf('PASS: Classic header layout and PRO navigation source.\n');
 end
